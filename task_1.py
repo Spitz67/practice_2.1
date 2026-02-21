@@ -1,4 +1,3 @@
-
 with open('text.txt', 'w+', encoding='utf-8') as file:
     lines_to_write = [
         file.write(f"Первая строка\n"),
@@ -24,3 +23,4 @@ with open('text.txt', 'r', encoding='utf-8') as file:
     longest_line = max(lines, key=len)
     print(f"Самая длинная строка: '{longest_line}'")
     print(f"Длина самой длинной строки: {len(longest_line)} символов")
+
